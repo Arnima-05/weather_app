@@ -1,0 +1,89 @@
+.box {
+    width: 350px;
+    height: 400px;
+    /*background-image: linear-gradient(to bottom right, rgba(135, 227, 215, 0.927), rgb(63, 219, 239));*/
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.228); 
+    backdrop-filter: blur(12px);    
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header div {
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.picContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.picContainer img {
+    width: 100px;
+}
+
+.degree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+    margin-top: 20px;
+}
+
+.degree h2 {
+    margin: 0;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.stat-item p {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+}
